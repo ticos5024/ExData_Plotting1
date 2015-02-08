@@ -1,5 +1,5 @@
 
-setwd("C:\\Users\\jvalerio\\Downloads\\Exploratory Data Analysis")
+## setwd("C:\\Users\\jvalerio\\Downloads\\Exploratory Data Analysis")
 datos<- read.table("household_power_consumption.txt", header= TRUE, sep=";")
 head(datos)
 class(datos)
