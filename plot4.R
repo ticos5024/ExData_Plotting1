@@ -1,4 +1,4 @@
-datos<- read.table("household_power_consumption.txt", header= TRUE, sep=";")
+##datos<- read.table("household_power_consumption.txt", header= TRUE, sep=";")
 head(datos)
 class(datos)
 datos[,"Date"]<-as.Date(datos[,"Date"], "%d/%m/%Y")
